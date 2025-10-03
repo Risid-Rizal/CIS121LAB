@@ -53,13 +53,12 @@ while n != 1:
                 n = 3 * n + 1
         print(n)'''
 
-
-
-import math
-
-def pyramid_volume(b, h):
-    return round((b**2 * h) / 3, 2)
-print(pyramid_volume(1, 2))
+word = 'peter piper picked a peck of pickled peppers'
+#result = ['peter', 'piper', 'picked', 'a',  'peck', 'of', 'pickled', 'peppers']
+result = []
+for i in word.split():
+        result.append(i)
+print(result, end=""   )
 
 
 
