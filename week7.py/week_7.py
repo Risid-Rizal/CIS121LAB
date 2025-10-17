@@ -51,9 +51,9 @@ receipt["Side Salad"] = 6
 receipt["Chicken Parm"] = 12
 receipt["Cookie"] = 3
 
-total = 0
+$total = 0
 for price in receipt.values():
-    total += price
-print("Total:", total)
+    $total += price
+print("Total:", $total)
 
 
