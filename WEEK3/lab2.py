@@ -83,7 +83,7 @@ knuts = int(input("Enter amount in knuts: "))
 
 
 knuts_in_sickle = 29
-knuts_in_galleon = 17 
+knuts_in_galleon = 17
 
 
 galleons = knuts // knuts_in_galleon

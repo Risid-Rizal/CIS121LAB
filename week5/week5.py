@@ -55,10 +55,10 @@ def convert_knuts(knuts):
         return output
 
 input_knuts = int(input("Enter amount in knuts: "))
-print(convert_knuts(input_knuts))'''
+print(convert_knuts(input_knuts))
 
 
-#2
+#[({strings[2]})]
 
 def is_fever(input_temp):
 
@@ -73,7 +73,14 @@ def is_fever(input_temp):
     else:
         return "Invalid unit"
     
-print(is_fever("99 F"))
+print(is_fever("99 F"))'''
+
+
+
+
+
+
+
 
 
 

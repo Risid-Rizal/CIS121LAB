@@ -2,10 +2,10 @@
 '''
 def is_isogram(word):
     letters = {}
-    for ch in word:
-        if ch in letters:
+    for i in word:
+        if i in letters:
             return False
-        letters[ch] = 1
+        letters[i] = 1
     return True
 
 print(is_isogram("algorism"))
@@ -43,7 +43,7 @@ def letter_count(word):
 print(letter_count("hello"))
 print(letter_count("mississippi")) 
 
-'''
+
 
 #Q5
 receipt = {}
@@ -51,9 +51,9 @@ receipt["Side Salad"] = 6
 receipt["Chicken Parm"] = 12
 receipt["Cookie"] = 3
 
-$total = 0
+total = 0
 for price in receipt.values():
-    $total += price
-print("Total:", $total)
+    total += price
+print("Total:", total)
 
-
+'''
